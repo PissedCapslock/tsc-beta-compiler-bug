@@ -9,9 +9,6 @@ define([
     Object.defineProperty(this, "_inlineContent", NULL_WRITABLE_HIDDEN);
   }
 
-  Graphic.prototype = Object.create(Object.prototype);
-  Graphic.prototype.constructor = Graphic;
-
   Object.defineProperty(Graphic.prototype, "inlineContent", {
     get: function() {
       return this._inlineContent;
