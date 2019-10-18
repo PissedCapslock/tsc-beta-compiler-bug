@@ -1,0 +1,8 @@
+{
+  "name": "tsc-error",
+  "description": "sample project to reproduce an error using tsc",
+  "version": "0.1",
+  "dependencies": {
+    "typescript": "^3.7.0-dev.20191018"
+  }
+}
